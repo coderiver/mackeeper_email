@@ -7,8 +7,8 @@ reload = browserSync.reload;
 gulp.task('html', function () {
     gulp.src(config.src.root+'*.html')
         .pipe(include())
-        .on('error', function(){notify("HTML include error");})
         .pipe(gulp.dest(config.dest.root))
+        
         .pipe(reload({stream: true}));
 });
 
