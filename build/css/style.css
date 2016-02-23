@@ -9,14 +9,14 @@ img { border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: b
 .content__username { color: #333333; font-size: 18px; font-weight: bold; margin-top: 16px; }
 .content__subtitle { font-size: 18px; line-height: 24px; color: #333333; }
 .content__subhead { font-size: 24px; color: #333333; }
-.content__steps { width: 460px; }
+.content__steps { width: 460px; margin: 0 auto; }
 .content__steps td { padding-top: 8px; padding-bottom: 8px; }
 .content__step { font-size: 18px; color: #6d8790; text-align: left; }
 .content__step a { color: #26bdfc; }
 .content__step span { color: #3ec6fc; }
 
 .activate td { text-align: center; background: #f8f8f8; font-family: Arial, sans-serif; }
-.activate__table .activate__tableinside { width: 430px; }
+.activate__table .activate__tableinside { width: 430px; margin: 0 auto; }
 .activate__phone { text-align: left; }
 .activate__phone td { text-align: left; padding: 5px 0; }
 .activate__phone .activate__country { height: 35px; width: 35px; text-align: center; border-radius: 35px; line-height: 35px; color: #fff; background: #fb964d; display: inline-block; }
